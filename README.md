@@ -3,5 +3,6 @@
 Program uses
 
 * Ruby on Rails
-* RUby
+* Ruby
 * Heroku
+* GitHub
