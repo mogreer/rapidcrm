@@ -1,4 +1,4 @@
-class LeadsController < ApplicationController
+rails sclass LeadsController < ApplicationController
   before_action :set_lead, only: [:show, :edit, :update, :destroy]
 
   # GET /leads
@@ -69,6 +69,6 @@ class LeadsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def lead_params
-      params.require(:lead).permit(:name, :company)
+      params.require(:lead).permit(:name, :company, :location, :phone)
     end
 end
